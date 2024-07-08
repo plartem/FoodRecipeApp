@@ -1,0 +1,23 @@
+input_dir: ../FoodRecipeApp/Resources
+output_dir: ../FoodRecipeApp/Generated
+
+xcassets:
+  inputs:
+    - Assets.xcassets
+  outputs:
+    templatePath: SwiftGen/xcassets.stencil
+    output: Assets+Generated.swift
+fonts:
+  inputs:
+    - Fonts/
+  outputs:
+    - templatePath: SwiftGen/font.stencil
+      output: Fonts+Generated.swift
+      params:
+        fontAliasName: SwiftGenFont
+strings:
+  inputs:
+    - en.lproj/Localizable.strings
+  outputs:
+      templatePath: SwiftGen/strings.stencil
+      output: Strings+Generated.swift

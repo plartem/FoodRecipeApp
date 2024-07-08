@@ -1,0 +1,413 @@
+// MARK: - Common
+
+"app.name" = "FoodRecipeApp";
+
+// MARK: - Welcome
+
+"welcome.logoCaption" = "100K+ Premium Recipes";
+"welcome.header.welcome" = "Welcome to";
+"welcome.header.caption" = "Find best recipes for cooking";
+"welcome.register" = "Get Started";
+"welcome.login" = "I already have an account";
+
+// MARK: - Registration
+
+"registration.title" = "Create an Account 🔐";
+"registration.caption" = "Let's help you set up your account.\nIt won't take long.";
+"registration.email.label" = "Email";
+"registration.email.placeholder" = "Email";
+"registration.password.label" = "Password";
+"registration.password.placeholder" = "Password";
+"registration.confirmPassword.label" = "Confirm password";
+"registration.confirmPassword.placeholder" = "Confirm password";
+"registration.bottomBar.signup" = "Sign up";
+"registration.popup.message" = "Registering your account. Please wait...";
+
+// MARK: - Login
+
+"login.title" = "Hello there 👋";
+"login.caption" = "Please enter your email and password to sign in.";
+"login.email.label" = "Email";
+"login.email.placeholder" = "Email";
+"login.password.label" = "Password";
+"login.password.placeholder" = "Password";
+"login.forgotPassword" = "Forgot Password?";
+"login.thirdPartyAuth.caption" = "or continue with";
+"login.signIn" = "Sign in";
+"login.popup.message" = "Logging in...";
+
+// MARK: - Forgot password
+
+"forgotPassword.title" = "Forgot password 🔑";
+"forgotPassword.caption" = "Enter your email address. We will send a link you can use to reset your password.";
+"forgotPassword.email.label" = "Email";
+"forgotPassword.email.placeholder" = "Email";
+"forgotPassword.continue" = "Continue";
+"forgotPassword.popup.message" = "Processing request...";
+
+// MARK: - Onboarding
+
+"onboarding.popup.message.saving" = "Saving your data...";
+
+// MARK: Country selection
+
+"onboarding.country.title" = "Which country are you from? 🏳️";
+"onboarding.country.caption" = "Please select your country of origin for better recommendations.";
+"onboarding.country.searchField.placeholder" = "Search Country";
+
+// MARK: Cooking level selection
+
+"onboarding.cookingLevel.title" = "What is your cooking level? 🍳";
+"onboarding.cookingLevel.caption" = "Please select your cooking level for better recommendations.";
+
+// MARK: Cuisine preferences
+
+"onboarding.cuisinePreference.title" = "Select your cuisine preferences 🥘";
+"onboarding.cuisinePreference.caption" = "Select your cuisine preferences for better recommendations.";
+
+// MARK: Extra
+
+"onboarding.extra.title" = "Complete Your Profile📋";
+"onboarding.extra.caption" = "Don't worry, only you will be able to see your personal data. No one else will be able to see it.";
+"onboarding.extra.username.label" = "Username";
+"onboarding.extra.username.placeholder" = "Username";
+"onboarding.extra.fullName.label" = "Full Name";
+"onboarding.extra.fullName.placeholder" = "Full Name";
+"onboarding.extra.phoneNumber.label" = "Phone Number";
+"onboarding.extra.phoneNumber.placeholder" = "(000) 000-0000";
+"onboarding.extra.gender.label" = "Gender";
+"onboarding.extra.gender.placeholder" = "Gender";
+"onboarding.extra.birthDate.label" = "Date of Birth";
+"onboarding.extra.birthDate.placeholder" = "MM/DD/YYYY";
+
+// MARK: Account info
+
+"onboarding.bottomBar.proceed" = "Continue";
+"onboarding.bottomBar.skip" = "Skip";
+
+// MARK: - Errors
+
+"error.title" = "Error";
+"error.dismiss" = "Ok";
+
+// MARK: Firestore
+
+"error.firestore.unauthorized" = "Unauthorized.";
+"error.firestore.decodingError" = "Error while decoding data. Please try again later.";
+"error.firestore.fetchError" = "Error while fetching data. Please try again later.";
+"error.firestore.saveError" = "Error while saving data. Please try again later.";
+
+// MARK: FirebaseStorage
+
+"error.storage.unauthorized" = "Unauthorized.";
+"error.storage.fileReadingError" = "Couldn't read image file.";
+"error.storage.fileUploadingError" = "Couldn't upload file. Please try again later.";
+
+// MARK: Auth
+
+"error.auth.firebaseConfig" = "Firebase configuration error.";
+"error.auth.unauthorized" = "Unauthorized.";
+"error.auth.viewController" = "Missing root view.";
+"error.auth.tokenError" = "Incorrect response from server.";
+
+// MARK: - Models
+
+
+
+// MARK: MainTab
+
+"mainTab.home" = "Home";
+"mainTab.discover" = "Discover";
+"mainTab.myRecipes" = "My Recipes";
+"mainTab.profile" = "Profile";
+
+// MARK: Cooking level
+
+"cookingLevel.novice.name" = "Novice";
+"cookingLevel.novice.description" = "Basic understanding of kitchen tools and fundamental cooking techniques, such as boiling, frying, and chopping.";
+"cookingLevel.beginner.name" = "Beginner";
+"cookingLevel.beginner.description" = "Expanding knowledge of cooking methods, including grilling and baking, with a focus on simple recipes and flavor combinations.";
+"cookingLevel.intermediate.name" = "Intermediate";
+"cookingLevel.intermediate.description" = "Proficiency in various cooking techniques, ability to experiment with ingredients, and a growing repertoire of recipes. Developing skills in seasoning and sauce-making.";
+"cookingLevel.advanced.name" = "Advanced";
+"cookingLevel.advanced.description" = "Mastery of advanced cooking methods like sous-vide and roasting. Can create complex dishes with precision, has a deep understanding of flavor profiles, and can adapt recipes creatively.";
+"cookingLevel.professional.name" = "Professional";
+"cookingLevel.professional.description" = "Culinary expertise at the highest level, capable of crafting exquisite dishes, developing unique recipes, and running a professional kitchen. Mastery of intricate techniques and the ability to innovate in the culinary world.";
+
+// MARK: Gender
+
+"gender.male" = "Male";
+"gender.female" = "Female";
+"gender.other" = "Other";
+
+// MARK: Cooking preference
+
+"cookingPreference.salad.name" = "Salad";
+"cookingPreference.egg.name" = "Egg";
+"cookingPreference.soup.name" = "Soup";
+"cookingPreference.curry.name" = "Curry";
+"cookingPreference.burger.name" = "Burger";
+"cookingPreference.pizza.name" = "Pizza";
+"cookingPreference.sushi.name" = "Sushi";
+"cookingPreference.seafood.name" = "Seafood";
+"cookingPreference.taco.name" = "Taco";
+"cookingPreference.ramen.name" = "Ramen";
+"cookingPreference.donut.name" = "Donut";
+"cookingPreference.cake.name" = "Cake";
+"cookingPreference.iceCream.name" = "Ice Cream";
+"cookingPreference.cookie.name" = "Cookie";
+"cookingPreference.cupcake.name" = "Cupcake";
+"cookingPreference.pancakes.name" = "Pancakes";
+
+// MARK: Country
+
+"country.af" = "Afghanistan";
+"country.ax" = "Åland Islands";
+"country.al" = "Albania";
+"country.dz" = "Algeria";
+"country.as" = "American Samoa";
+"country.ad" = "Andorra";
+"country.ao" = "Angola";
+"country.ai" = "Anguilla";
+"country.aq" = "Antarctica";
+"country.ag" = "Antigua and Barbuda";
+"country.ar" = "Argentina";
+"country.am" = "Armenia";
+"country.aw" = "Aruba";
+"country.au" = "Australia";
+"country.at" = "Austria";
+"country.az" = "Azerbaijan";
+"country.bs" = "Bahamas";
+"country.bh" = "Bahrain";
+"country.bd" = "Bangladesh";
+"country.bb" = "Barbados";
+"country.by" = "Belarus";
+"country.be" = "Belgium";
+"country.bz" = "Belize";
+"country.bj" = "Benin";
+"country.bm" = "Bermuda";
+"country.bt" = "Bhutan";
+"country.bo" = "Bolivia (Plurinational State of)";
+"country.bq" = "Bonaire, Sint Eustatius and Saba";
+"country.ba" = "Bosnia and Herzegovina";
+"country.bw" = "Botswana";
+"country.bv" = "Bouvet Island";
+"country.br" = "Brazil";
+"country.io" = "British Indian Ocean Territory";
+"country.bn" = "Brunei Darussalam";
+"country.bg" = "Bulgaria";
+"country.bf" = "Burkina Faso";
+"country.bi" = "Burundi";
+"country.cv" = "Cabo Verde";
+"country.kh" = "Cambodia";
+"country.cm" = "Cameroon";
+"country.ca" = "Canada";
+"country.ky" = "Cayman Islands";
+"country.cf" = "Central African Republic";
+"country.td" = "Chad";
+"country.cl" = "Chile";
+"country.cn" = "China";
+"country.cx" = "Christmas Island";
+"country.cc" = "Cocos (Keeling) Islands";
+"country.co" = "Colombia";
+"country.km" = "Comoros";
+"country.cg" = "Congo";
+"country.cd" = "Congo (Democratic Republic of the)";
+"country.ck" = "Cook Islands";
+"country.cr" = "Costa Rica";
+"country.ci" = "Côte d'Ivoire";
+"country.hr" = "Croatia";
+"country.cu" = "Cuba";
+"country.cw" = "Curaçao";
+"country.cy" = "Cyprus";
+"country.cz" = "Czechia";
+"country.dk" = "Denmark";
+"country.dj" = "Djibouti";
+"country.dm" = "Dominica";
+"country.do" = "Dominican Republic";
+"country.ec" = "Ecuador";
+"country.eg" = "Egypt";
+"country.sv" = "El Salvador";
+"country.gq" = "Equatorial Guinea";
+"country.er" = "Eritrea";
+"country.ee" = "Estonia";
+"country.et" = "Ethiopia";
+"country.fk" = "Falkland Islands (Malvinas)";
+"country.fo" = "Faroe Islands";
+"country.fj" = "Fiji";
+"country.fi" = "Finland";
+"country.fr" = "France";
+"country.gf" = "French Guiana";
+"country.pf" = "French Polynesia";
+"country.tf" = "French Southern Territories";
+"country.ga" = "Gabon";
+"country.gm" = "Gambia";
+"country.ge" = "Georgia";
+"country.de" = "Germany";
+"country.gh" = "Ghana";
+"country.gi" = "Gibraltar";
+"country.gr" = "Greece";
+"country.gl" = "Greenland";
+"country.gd" = "Grenada";
+"country.gp" = "Guadeloupe";
+"country.gu" = "Guam";
+"country.gt" = "Guatemala";
+"country.gg" = "Guernsey";
+"country.gn" = "Guinea";
+"country.gw" = "Guinea-Bissau";
+"country.gy" = "Guyana";
+"country.ht" = "Haiti";
+"country.hm" = "Heard Island and McDonald Islands";
+"country.va" = "Holy See";
+"country.hn" = "Honduras";
+"country.hk" = "Hong Kong";
+"country.hu" = "Hungary";
+"country.is" = "Iceland";
+"country.in" = "India";
+"country.id" = "Indonesia";
+"country.ir" = "Iran (Islamic Republic of)";
+"country.iq" = "Iraq";
+"country.ie" = "Ireland";
+"country.im" = "Isle of Man";
+"country.il" = "Israel";
+"country.it" = "Italy";
+"country.jm" = "Jamaica";
+"country.jp" = "Japan";
+"country.je" = "Jersey";
+"country.jo" = "Jordan";
+"country.kz" = "Kazakhstan";
+"country.ke" = "Kenya";
+"country.ki" = "Kiribati";
+"country.kp" = "Korea (Democratic People's Republic of)";
+"country.kr" = "Korea (Republic of)";
+"country.kw" = "Kuwait";
+"country.kg" = "Kyrgyzstan";
+"country.la" = "Lao People's Democratic Republic";
+"country.lv" = "Latvia";
+"country.lb" = "Lebanon";
+"country.ls" = "Lesotho";
+"country.lr" = "Liberia";
+"country.ly" = "Libya";
+"country.li" = "Liechtenstein";
+"country.lt" = "Lithuania";
+"country.lu" = "Luxembourg";
+"country.mo" = "Macao";
+"country.mk" = "Macedonia (the former Yugoslav Republic of)";
+"country.mg" = "Madagascar";
+"country.mw" = "Malawi";
+"country.my" = "Malaysia";
+"country.mv" = "Maldives";
+"country.ml" = "Mali";
+"country.mt" = "Malta";
+"country.mh" = "Marshall Islands";
+"country.mq" = "Martinique";
+"country.mr" = "Mauritania";
+"country.mu" = "Mauritius";
+"country.yt" = "Mayotte";
+"country.mx" = "Mexico";
+"country.fm" = "Micronesia (Federated States of)";
+"country.md" = "Moldova (Republic of)";
+"country.mc" = "Monaco";
+"country.mn" = "Mongolia";
+"country.me" = "Montenegro";
+"country.ms" = "Montserrat";
+"country.ma" = "Morocco";
+"country.mz" = "Mozambique";
+"country.mm" = "Myanmar";
+"country.na" = "Namibia";
+"country.nr" = "Nauru";
+"country.np" = "Nepal";
+"country.nl" = "Netherlands";
+"country.nc" = "New Caledonia";
+"country.nz" = "New Zealand";
+"country.ni" = "Nicaragua";
+"country.ne" = "Niger";
+"country.ng" = "Nigeria";
+"country.nu" = "Niue";
+"country.nf" = "Norfolk Island";
+"country.mp" = "Northern Mariana Islands";
+"country.no" = "Norway";
+"country.om" = "Oman";
+"country.pk" = "Pakistan";
+"country.pw" = "Palau";
+"country.ps" = "Palestine, State of";
+"country.pa" = "Panama";
+"country.pg" = "Papua New Guinea";
+"country.py" = "Paraguay";
+"country.pe" = "Peru";
+"country.ph" = "Philippines";
+"country.pn" = "Pitcairn";
+"country.pl" = "Poland";
+"country.pt" = "Portugal";
+"country.pr" = "Puerto Rico";
+"country.qa" = "Qatar";
+"country.re" = "Réunion";
+"country.ro" = "Romania";
+"country.ru" = "Russian Federation";
+"country.rw" = "Rwanda";
+"country.bl" = "Saint Barthélemy";
+"country.sh" = "Saint Helena, Ascension and Tristan da Cunha";
+"country.kn" = "Saint Kitts and Nevis";
+"country.lc" = "Saint Lucia";
+"country.mf" = "Saint Martin (French part)";
+"country.pm" = "Saint Pierre and Miquelon";
+"country.vc" = "Saint Vincent and the Grenadines";
+"country.ws" = "Samoa";
+"country.sm" = "San Marino";
+"country.st" = "Sao Tome and Principe";
+"country.sa" = "Saudi Arabia";
+"country.sn" = "Senegal";
+"country.rs" = "Serbia";
+"country.sc" = "Seychelles";
+"country.sl" = "Sierra Leone";
+"country.sg" = "Singapore";
+"country.sx" = "Sint Maarten (Dutch part)";
+"country.sk" = "Slovakia";
+"country.si" = "Slovenia";
+"country.sb" = "Solomon Islands";
+"country.so" = "Somalia";
+"country.za" = "South Africa";
+"country.gs" = "South Georgia and the South Sandwich Islands";
+"country.ss" = "South Sudan";
+"country.es" = "Spain";
+"country.lk" = "Sri Lanka";
+"country.sd" = "Sudan";
+"country.sr" = "Suriname";
+"country.sj" = "Svalbard and Jan Mayen";
+"country.sz" = "Swaziland";
+"country.se" = "Sweden";
+"country.ch" = "Switzerland";
+"country.sy" = "Syrian Arab Republic";
+"country.tw" = "Taiwan, Province of China[a]";
+"country.tj" = "Tajikistan";
+"country.tz" = "Tanzania, United Republic of";
+"country.th" = "Thailand";
+"country.tl" = "Timor-Leste";
+"country.tg" = "Togo";
+"country.tk" = "Tokelau";
+"country.to" = "Tonga";
+"country.tt" = "Trinidad and Tobago";
+"country.tn" = "Tunisia";
+"country.tr" = "Turkey";
+"country.tm" = "Turkmenistan";
+"country.tc" = "Turks and Caicos Islands";
+"country.tv" = "Tuvalu";
+"country.ug" = "Uganda";
+"country.ua" = "Ukraine";
+"country.ae" = "United Arab Emirates";
+"country.gb" = "United Kingdom of Great Britain and Northern Ireland";
+"country.us" = "United States of America";
+"country.um" = "United States Minor Outlying Islands";
+"country.uy" = "Uruguay";
+"country.uz" = "Uzbekistan";
+"country.vu" = "Vanuatu";
+"country.ve" = "Venezuela (Bolivarian Republic of)";
+"country.vn" = "Viet Nam";
+"country.vg" = "Virgin Islands (British)";
+"country.vi" = "Virgin Islands (U.S.)";
+"country.wf" = "Wallis and Futuna";
+"country.eh" = "Western Sahara";
+"country.ye" = "Yemen";
+"country.zm" = "Zambia";
+"country.zw" = "Zimbabwe";
+

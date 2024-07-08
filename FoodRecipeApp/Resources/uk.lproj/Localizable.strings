@@ -1,0 +1,11 @@
+/* Welcome*/
+"welcome.logo_caption" = "100K+ Premium Recipes";
+"welcome.header.welcome" = "Welcome to";
+"welcome.header.app" = "FoodRecipeApp";
+"welcome.header.caption" = "Find best recipes for cooking";
+"welcome.button.register" = "Get Started";
+"welcome.button.login" = "I already have an account";
+/* Login page*/
+"login.welcome_screen_title" = "Welcome";
+"login.login_button" = "Log in";
+
